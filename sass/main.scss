@@ -10,7 +10,7 @@ nav{
 	display: flex;
 	align-items:center;
 	justify-content: space-between ;
-	padding: 25px 5%;
+	padding: 25px 10%;
 	a{
 		position: relative;
 		order: 1;
@@ -43,5 +43,49 @@ nav{
 	svg{
 		width:226px;
 		order: 1;
+	}
+}
+.home-wrapper{
+	width:90vw;
+	padding:45px 5vw;
+	.left-content{
+		width:  55.5vw;
+		height: 34.5vw;
+		float: left;
+		padding: 0;
+		h2{
+			font-size: 48px;
+			font-weight: bold;
+			line-height:47px;
+			letter-spacing: 5px;
+			margin: 0;
+		}
+		h4{
+			font-size: 36px;
+			font-weight: 300;
+			line-height:47px;
+			letter-spacing: 8px;
+			color: #828282;
+			margin: 0;
+			margin-top:24px;
+		}
+		p{
+			font-size: 14px;
+			font-weight: bold;
+			line-height: 26px;
+			text-align:justify;
+			letter-spacing: 5px;
+			color: #333;
+			margin-top:35px;
+		}
+	}
+	.right-content{
+		width:  34.5vw;
+		height: 34.5vw;
+		float: right;
+		padding: 0;
+		img{
+			padding: 10px;
+		}
 	}
 }

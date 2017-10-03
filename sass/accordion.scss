@@ -1,0 +1,55 @@
+
+//urls
+$url_0: url(https://unsplash.it/650/350?image=675);
+$url_1: url(https://unsplash.it/650/350?image=674);
+$url_2: url(https://unsplash.it/650/350?image=673);
+$url_3: url(https://unsplash.it/650/350?image=672);
+$url_4: url(https://unsplash.it/650/350?image=671);
+$url_5: url(https://unsplash.it/650/350?image=670);
+
+.accordion {
+	width: 100%;
+	max-width: 1080px;
+	height: 350px;
+	overflow: hidden;
+	margin: 50px auto;
+	ul: ;
+}
+h2 {
+	text-overflow: clip;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+	top: 160px;
+}
+p {
+	top: 160px;
+	font-size: 13.5px;
+}
+li {
+	&:nth-child(1) {
+		background-image: $url_0;
+	}
+	&:nth-child(2) {
+		background-image: $url_1;
+	}
+	&:nth-child(3) {
+		background-image: $url_2;
+	}
+	&:nth-child(4) {
+		background-image: $url_3;
+	}
+	&:nth-child(5) {
+		background-image: $url_4;
+	}
+	&:nth-child(6) {
+		background-image: $url_5;
+	}
+}
+ul:hover li {
+	width: 8%;
+	&:hover {
+		width: 60%;
+		a: ;
+	}
+}

@@ -50,17 +50,16 @@ nav{
 }
 .home-wrapper{
 	width:90vw;
+	height: 25vw;
 	padding:10px 5vw;
 	.left-content{
 		width:  55.5vw;
-		height: 34.5vw;
 		float: left;
 		padding: 0;
 		margin: 0;
 	}
 	.right-content{
 		width:  30.5vw;
-		height: 34.5vw;
 		float: right;
 		padding: 0;
 		h2{
@@ -86,4 +85,12 @@ nav{
 			margin: 0;
 		}
 	}
+
+}
+.bottom-content{
+	 margin: 0 5%;
+	 width: 90%;
+		 h4{
+			 margin: 0;
+		 }
 }

@@ -23,7 +23,7 @@ nav{
 		text-decoration: none;
 		color:$primary-color;
 	}
-	a:before {
+	a:before,{
 		content: "";
 		position: absolute;
 		width: 100%;
@@ -47,6 +47,20 @@ nav{
 		width:150px;
 		order: 0;
 	}
+}
+.active:before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 4px;
+	bottom: -5px;
+	left: 0;
+	background-color: #000;
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
 }
 .home-wrapper{
 	width:90vw;

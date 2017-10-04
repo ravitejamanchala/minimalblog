@@ -1,23 +1,25 @@
 $font-stack:'Montserrat', sans-serif;
-$primary-color:#4e4e4e;;
+$primary-color:#4e4e4e;
+$secondary-color:#e8e8e8;
+
 
 body {
 	font: 100% $font-stack;
 	color: $primary-color;
 	margin: 0;
-  overflow-x: hidden;
+	overflow-x: hidden;
 }
 nav{
 	display: flex;
 	align-items:center;
 	justify-content: space-between ;
-	padding: 25px 10%;
+	padding: 20px 5%;
 	a{
 		position: relative;
 		order: 1;
 		text-align: center;
 		font-weight:bold;
-		font-size: 14px;
+		font-size: 12px;
 		text-decoration: none;
 		color:$primary-color;
 	}
@@ -42,13 +44,13 @@ nav{
 		transform: scaleX(1);
 	}
 	svg{
-		width:226px;
-		order: 1;
+		width:150px;
+		order: 0;
 	}
 }
 .home-wrapper{
 	width:90vw;
-	padding:45px 5vw;
+	padding:10px 5vw;
 	.left-content{
 		width:  55.5vw;
 		height: 34.5vw;
@@ -78,10 +80,10 @@ nav{
 		p{
 			font-size: 12px;
 			line-height: 16px;
-			text-align:justify;
-			letter-spacing: 3px;
-			color: #c0c0c0;
-      margin: 0;
+			text-align: justify;
+			letter-spacing: 2px;
+			color: #a7a5a5;
+			margin: 0;
 		}
 	}
 }
